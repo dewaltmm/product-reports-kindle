@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+	xmlns:gap = "http://phonegap.com/ns/1.0"
+	id 	= "org.apawood.productReports"
+	versionCode = "1"
+	version = "1.0.0">
+
+<name>APA Product Reports</name>
+<description>This free APA Product Reports app provides quick links for build officials and design professions to download APA documents that assist in determining an engineered wood product's conformance with codes and standards. Search by keyword, report number, or browse through the list of over 60 Product Reports. You can also contact the APA Product Support Help Desk by phone or e-mail and link to the apawood.org website. APA issues Product Reports to document the compliance of an engineered wood product that is manufactured under a quality control program audited by APA to specific national, international or industry recognized standards. Products include: Plywood, Oriented Strand Board (OSB), Glulam, I-Joists and Structural Composite Lumber (SCL). 
+APA at Your Service. For additional information on engineered wood products and applications visit the APA website at www.apawood.org.</description>
+
+<gap:plugin name="ChildBrowser" version="~3"/> <!-- for Cordova (1.9.0+)-->
+<author href = "https://www.apawood.org" email="melissa.dewalt@apawood.org">APA - The Engineered Wood Association</author>
+
+<preference name="android-minSdkVersion" value="8"/>
+<preference name="permissions" value="none"/>
+<icon src="img/icons/icon.png"/>
+<gap:splash src="splash.png" width="334" height="480"/>
+
+<!--Android Specific Preferences -->
+<icon src="img/icons/ldpi.png" gap:platform="android" gap:density="ldpi" />
+<icon src="img/icons/mdpi.png" gap:platform="android" gap:density="mdpi" />
+<icon src="img/icons/hdpi.png" gap:platform="android" gap:density="hdpi" />
+<icon src="img/icons/xhdpi.png" gap:platform="android" gap:density="xhdpi" /> 
+
+<!--Note to Melissa, or Developer working on this project: as of Oct 25, 2012 - Phonegap Build doesn't offer
+any support for landscape splash screens for android. When they do, let's implement these specific tags for
+displays, and include landscape graphics too.
+<gap:splash src="splash/android/ldpi.png" gap:platform="android" gap:density="ldpi" />
+<gap:splash src="splash/android/mdpi.png" gap:platform="android" gap:density="mdpi" />
+<gap:splash src="splash/android/hdpi.png" gap:platform="android" gap:density="hdpi" />
+<gap:splash src="splash/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+-->
+
+</widget>
